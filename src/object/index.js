@@ -1,6 +1,6 @@
 const isObject = module.exports = o => {
-    return (
+  return (
         typeof o === 'object' &&
         (o && o.constructor && o.constructor === Object)
-    )
+  )
 }

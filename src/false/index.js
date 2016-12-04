@@ -1,3 +1,3 @@
 const isFalse = module.exports = b => {
-    return b === false
+  return b === false
 }
