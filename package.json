@@ -1,13 +1,15 @@
 {
   "name": "is",
   "version": "1.0.0",
+  "git": " git@github.com:geclos/is.git",
   "description": "type checks for Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "ava tests"
+    "test": "ava tests",
+    "standard": "standard --fix"
   },
   "author": "GC",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "ava": "^0.17.0",
     "standard": "^8.6.0"
