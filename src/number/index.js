@@ -1,1 +1,1 @@
-const isNumber = module.exports = n => typeof n === 'number'
+module.exports = n => typeof n === 'number'

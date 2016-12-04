@@ -1,3 +1,3 @@
-const isFalse = module.exports = b => {
+module.exports = b => {
   return b === false
 }

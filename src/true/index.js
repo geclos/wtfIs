@@ -1,1 +1,1 @@
-const isTrue = module.exports = b => b === true
+module.exports = b => b === true

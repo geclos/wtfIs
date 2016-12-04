@@ -1,1 +1,1 @@
-const isNull = module.exports = o => o === null
+module.exports = o => o === null
