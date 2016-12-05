@@ -4,4 +4,8 @@
 modular type checks for Javascript
 
 ## Motivation
-Try to write as few equality checks as possible. Code shamelessly stolen from [inferno](https://github.com/trueadm/inferno).
+Try to write as few equality checks as possible. 
+
+Code shamelessly stolen from [inferno](https://github.com/trueadm/inferno).
+
+Enjoy :)
