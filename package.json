@@ -5,13 +5,16 @@
   "description": "type checks for Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "ava tests",
-    "standard": "standard --fix"
+    "build": "rimraf dist && webpack --config configs/webpack.config.js",
+    "standard": "standard --fix",
+    "test": "ava tests"
   },
   "author": "GC",
   "license": "MIT",
   "devDependencies": {
     "ava": "^0.17.0",
-    "standard": "^8.6.0"
+    "rimraf": "^2.5.4",
+    "standard": "^8.6.0",
+    "webpack": "2.1.0-beta.27"
   }
 }
