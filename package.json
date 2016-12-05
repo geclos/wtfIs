@@ -3,7 +3,6 @@
   "version": "0.0.0-development",
   "git": " git@github.com:geclos/is.git",
   "description": "type checks for Javascript",
-  "main": "index.js",
   "scripts": {
     "build": "webpack --config configs/webpack.config.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
