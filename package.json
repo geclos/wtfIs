@@ -1,7 +1,7 @@
 {
   "name": "wtfis",
   "version": "0.0.0-development",
-  "git": " git@github.com:geclos/is.git",
+  "git": "git@github.com:geclos/wtfIs.git",
   "description": "type checks for Javascript",
   "scripts": {
     "build": "webpack --config configs/webpack.config.js",
