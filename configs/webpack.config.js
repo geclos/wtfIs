@@ -16,6 +16,6 @@ module.exports = {
     filename: '[name].js',
     library: ['is', '[name]'],
     libraryTarget: 'umd',
-    path: path.join(__dirname, '../dist')
+    path: path.join(__dirname, '../')
   }
 }

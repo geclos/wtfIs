@@ -1,11 +1,12 @@
 {
   "name": "is",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "git": " git@github.com:geclos/is.git",
   "description": "type checks for Javascript",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && webpack --config configs/webpack.config.js",
+    "build": "webpack --config configs/webpack.config.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "standard": "standard --fix",
     "test": "ava tests"
   },
@@ -15,6 +16,11 @@
     "ava": "^0.17.0",
     "rimraf": "^2.5.4",
     "standard": "^8.6.0",
-    "webpack": "2.1.0-beta.27"
+    "webpack": "2.1.0-beta.27",
+    "semantic-release": "^6.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geclos/is.git"
   }
 }
