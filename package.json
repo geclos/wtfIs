@@ -1,6 +1,6 @@
 {
   "name": "wtfis",
-  "version": "0.0.0-development",
+  "version": "0.0.0-semantically-released",
   "git": "git@github.com:geclos/wtfIs.git",
   "description": "type checks for Javascript",
   "scripts": {
