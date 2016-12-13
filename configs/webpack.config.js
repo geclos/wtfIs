@@ -17,5 +17,16 @@ module.exports = {
     library: ['is', '[name]'],
     libraryTarget: 'umd',
     path: path.join(__dirname, '../')
+  },
+  module: {
+    loaders: [{
+      test: /\.js?$/,
+      exclude: /node_modules/,
+      include: [ path.resolve(__dirname, '../src') ],
+      loader: 'babel-loader',
+      options: {
+        presets: ['es2015']
+      }
+    }]
   }
 }
